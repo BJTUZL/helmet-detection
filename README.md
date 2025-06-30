@@ -1,5 +1,5 @@
 该项目是使用 `YOLOv5 v2.x` 的程序来训练在智能工地安全领域中头盔目标检测的应用，
-已包含训练所需数据集，如需添加新数据集请参考[5. 增加数据集的分类](#5-增加数据集的分类)】
+已包含训练所需数据集，如需添加新数据集请参考[5. 增加数据集的分类](#5-增加数据集的分类)
 
 ## 指标
 ### yolov5s 为基础训练，`epoch = 50`
@@ -210,6 +210,8 @@ python train.py --img 640 \
 ### 1.6 看训练之后的结果
 训练之后，权重会保存在 `./runs` 文件夹里面的每个 `exp` 文件里面的 `weights/best.py` ，里面还可以看到训练的效果
 ![](./doc/test_batch0_gt.jpg)
+
+已训练好的权重文件：helmet_best.pt 链接: https://pan.baidu.com/s/1TtlzwXYZ1n3QEZLVGGg-Cw?pwd=pnb2 提取码: pnb2
 
 # 2. 侦测
 侦测图片会保存在 `./inferenct/output/` 文件夹下
