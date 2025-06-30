@@ -212,7 +212,9 @@ python train.py --img 640 \
 ![](./doc/test_batch0_gt.jpg)
 
 已训练好的权重文件：helmet_best.pt 
+
 链接: https://pan.baidu.com/s/1TtlzwXYZ1n3QEZLVGGg-Cw?pwd=pnb2 
+
 提取码: pnb2
 
 # 2. 侦测
