@@ -211,7 +211,9 @@ python train.py --img 640 \
 训练之后，权重会保存在 `./runs` 文件夹里面的每个 `exp` 文件里面的 `weights/best.py` ，里面还可以看到训练的效果
 ![](./doc/test_batch0_gt.jpg)
 
-已训练好的权重文件：helmet_best.pt 链接: https://pan.baidu.com/s/1TtlzwXYZ1n3QEZLVGGg-Cw?pwd=pnb2 提取码: pnb2
+已训练好的权重文件：helmet_best.pt 
+链接: https://pan.baidu.com/s/1TtlzwXYZ1n3QEZLVGGg-Cw?pwd=pnb2 
+提取码: pnb2
 
 # 2. 侦测
 侦测图片会保存在 `./inferenct/output/` 文件夹下
